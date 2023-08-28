@@ -1,0 +1,157 @@
+<style>
+  .main
+  {
+    height: 97vh;
+    width: 100v;
+    /* background-color: red; */
+  }
+  .left-col
+  {
+    position:absolute;
+    justify-content: space-between;
+    /* background-color: white; */
+    height: 100%;
+    width: 178px;
+  }
+  #z1
+  {
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+  }
+  .frame1
+  {
+    height: 127px;
+    width: 158px;
+    margin-top: 360px;
+    margin-left: 0.2rem;
+  }
+  .imgframe
+  {
+    width: 147px;
+    height: 69px;
+    position: absolute; 
+    bottom: 0;
+    margin-bottom: 30px;
+  }
+  .ziptext
+  {
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .messenger-text {
+    font-size: 16px;
+    position: absolute;
+    bottom: 0;
+    left: 40%; /* Position to the right of .ziptext */
+    bottom: 15%;
+    right: 10%;
+    margin-left: 5px; /* Adjust the margin for spacing */
+  }
+  .right-col
+  {
+    /* background-color: green; */
+    height: 100%;
+    width: 175px;
+    margin-left: 1166px;
+  }
+  .buttonsend
+  {
+    margin: 5.5px;
+    border: none;
+    border-radius: 8px;
+    width: 160px;
+    height: 530px;
+    background-color: #32C1FF;
+    color: white;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .buttoncancel
+  {
+    width: 160px;
+    height: 60px;
+    border: none;
+    border-radius: 8px;
+    background-color: #F00;
+    margin: 5px;
+    color: white;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .bottomcol
+  {
+    position: absolute;
+    /* background-color:blueviolet; */
+    width: 989px;
+    height: 97%;
+    margin-left: 178px;
+  }
+  .headtext {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .textinsidehead {
+    font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 10px;
+  }
+
+  .nextohead {
+    font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    color: #555; /* You can change the color as needed */
+    padding-right: 5px;
+  }
+  iframe
+  {
+    height: 78.5%;
+    width: 99.5%;
+  }
+</style>
+
+<div class="main">
+  
+  <div class="left-col">
+    <img src="../assets/Z1.png" alt="" id="z1">
+    <div class="frame1">
+      <h1 class="ziptext">ZIP</h1>
+      <p class="messenger-text">Messenger</p>
+      <div class="imgframe">
+        <img src="../assets/V1.png" alt="" style="margin-right: -30px;">
+        <img src="../assets/S1.png" alt="" style="margin-right: -30px;">
+        <img src="../assets/G1.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="bottomcol">
+    <div class="headtext">
+      <h1 class="textinsidehead">Message</h1>
+      <p class="nextohead">Enter message below</p>
+    </div>
+    <iframe frameborder="1">
+
+    </iframe>
+  </div>
+
+    <div class="right-col">
+      <button class="buttonsend" value="SEND" style="cursor: pointer;">SEND</button>
+      <button class="buttoncancel" value="CANCEL" style="cursor: pointer;">CANCEL</button>
+  </div>
+</div> 
